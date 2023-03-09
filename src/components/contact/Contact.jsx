@@ -12,7 +12,6 @@ function Contact() {
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_880gtco', 'template_58dzkuj', form.current, 'TeNTAWimHfKAAwV_B')
       .then((result) => {
         console.log(result.text);
