@@ -1,55 +1,55 @@
 import React from 'react'
 import './portfolio.css'
 
-// import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/portfolio1.gif'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.gif'
+import IMG4 from '../../assets/portfolio4.gif'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.jpeg'
 
 const data = [
-  // {
-  //   id: 1,
-  //   image: IMG1,
-  //   title: 'Project1',
-  //   github: 'https://github.com',
-  //   demo: 'https://github.com'
-  // },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Anyday',
+    github: 'https://github.com/yosikari/Anyday',
+    demo: 'https://anyday-za1z.onrender.com/'
+  },
   {
     id: 2,
     image: IMG2,
-    title: 'Project2',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Notes & Mail',
+    github: 'https://github.com/yosikari/Appsus',
+    demo: 'https://github.com/yosikari/Appsus'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Project3',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Meme Generator',
+    github: 'https://github.com/yosikari/MemeGenerator',
+    demo: 'https://yosikari.github.io/MemeGenerator/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Project4',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Crypto Wallet',
+    github: 'https://github.com/yosikari/CryptoWallet',
+    demo: 'https://yosikari.github.io/CryptoWallet/#/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Project5',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'MineSweeper',
+    github: 'https://github.com/yosikari/minesweeper.github.io',
+    demo: 'https://yosikari.github.io/minesweeper.github.io/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Project6',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'View More...',
+    github: 'https://github.com/yosikari?tab=repositories',
+    // demo: 'https://github.com'
   },
 ]
 
@@ -63,13 +63,13 @@ function Portfolio() {
         {
           data.map(({ id, image, title, github, demo }) => {
             return (<article className='portfolio__item' key={id}>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+              <div className="portfolio__item-image__container">
+                <img className='portfolio__item-image' src={image} alt={title} />
               </div>
               <h2>{title}</h2>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                {demo && <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>}
               </div>
             </article>)
           })

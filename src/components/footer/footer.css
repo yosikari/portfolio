@@ -17,6 +17,10 @@ footer a {
     display: inline-block;
 }
 
+.footer__sub-logo {
+    font-size: 1rem;
+}
+
 .permalinks {
     display: flex;
     flex-wrap: wrap;

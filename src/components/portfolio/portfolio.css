@@ -17,9 +17,13 @@
     background: transparent;
 }
 
-.portfolio__item-image {
+.portfolio__item-image__container {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__item-image {
+    height: 30vh;
 }
 
 .portfolio__item h3 {

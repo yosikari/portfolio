@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import './contact.css'
 
 import { MdOutlineMailOutline } from 'react-icons/md'
@@ -9,6 +9,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 function Contact() {
+  const [isSubmitted, setIsSubmitted] = useState(false)
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,7 +19,8 @@ function Contact() {
       }, (error) => {
         console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
+    setIsSubmitted(true)
   };
 
   return (
@@ -53,6 +55,7 @@ function Contact() {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
+          {isSubmitted && <h5 className='message__sent'>Message sent <span>successfully</span></h5>}
         </form>
       </div>
     </section>)

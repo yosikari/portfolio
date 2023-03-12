@@ -16,13 +16,17 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
-      <Testimonials />
-      <Contact/>
+      {/* <Testimonials /> */}
+      <Contact />
       <Footer />
     </>
   )
 }
+
+// NOTE: 'Services' and 'Testimonials' are optional  
+// future components, that already checked with  
+// demo data but not used in this production version...
 
 export default App
