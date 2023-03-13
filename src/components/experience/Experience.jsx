@@ -2,6 +2,10 @@ import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
 
+import { utilService } from '../../services/utils.js'
+
+window.addEventListener("scroll", utilService.reveal);
+
 function Experience() {
   return (
     <section id='experience'>
@@ -9,7 +13,7 @@ function Experience() {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
-        <div className="experience__frontend">
+        <div className="experience__frontend reveal fade-left">
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
@@ -58,7 +62,7 @@ function Experience() {
         </div>
 
 
-        <div className="experience__backend">
+        <div className="experience__backend reveal fade-right">
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>

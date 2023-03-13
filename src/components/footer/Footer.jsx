@@ -8,9 +8,9 @@ import { IoLogoTwitter } from 'react-icons/io'
 function Footer() {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Yossi Karasik
+      <a href="#" className='footer__logo hithere'>Yossi Karasik
         <br />
-        <h5 className='footer__sub-logo'>FullStuck Developer</h5>
+        <h5 className='footer__sub-logo'>FullStack Developer</h5>
       </a>
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -18,7 +18,7 @@ function Footer() {
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
         <li><a href="#portfolio">Portfolio</a></li>
-        {/* <li><a href="#testimonials">Testimonials</a></li> */}
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 

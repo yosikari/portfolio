@@ -36,6 +36,32 @@
     margin-bottom: 1rem;
 }
 
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width:1024px) {
     .portfolio__container {

@@ -5,7 +5,7 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
+import Education from './components/education/Education'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -18,15 +18,15 @@ const App = () => {
       <Experience />
       {/* <Services /> */}
       <Portfolio />
-      {/* <Testimonials /> */}
+      <Education />
       <Contact />
       <Footer />
     </>
   )
 }
 
-// NOTE: 'Services' and 'Testimonials' are optional  
-// future components, that already checked with  
+// NOTE: 'Services' are optional  
+// future component, that already checked with  
 // demo data but not used in this production version...
 
 export default App

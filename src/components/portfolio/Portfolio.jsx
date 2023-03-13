@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 
+import { utilService } from '../../services/utils.js'
+
 import IMG1 from '../../assets/portfolio1.gif'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.gif'
@@ -53,13 +55,15 @@ const data = [
   },
 ]
 
+window.addEventListener("scroll", utilService.reveal);
+
 function Portfolio() {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container reveal fade-bottom">
         {
           data.map(({ id, image, title, github, demo }) => {
             return (<article className='portfolio__item' key={id}>
