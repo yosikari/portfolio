@@ -34,7 +34,7 @@ const data = [
 function Education() {
   return (
     <section id='education'>
-      <h5>Professional achievements</h5>
+      <h5>Professional Achievements</h5>
       <h2>Education</h2>
 
       <Swiper className="container education__container"

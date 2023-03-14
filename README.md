@@ -1,11 +1,52 @@
+#Yossi Karasik
+###Portfolio
 
-*** WORKING ON IT... 👷‍♂️⛏️🪛 ***
+<img src='/src/assets/readme-gif.gif' /> 
 
-*** This project is still under construction ***
+Check it out here: https://YossiKarasik.com
 
-*** & will be updated soon... ***
+## Project Features
+
+- A designed landing page - responsive to any device, with scrolling animations.
+- Link to download CV .
+- Shortcuts for sending messages in social networks.
+- Live 'Contact Me' to send me a message by Email. 
 
 
-<h2>HEADER:</h2>
-<img src="https://i.imagesup.co/images2/a592ee0f5435bc2d3434611af2d73336d211744a.png" /> 
+##Technologies Used
+This project is built using the following technologies:
 
+- React framework created with 'npx create-react-app'
+- JavaScript
+- Html
+- CSS
+
+### Used libraries
+
+- emailjs-com
+- swiper
+
+ ### App host
+
+- Hostinger.com
+
+
+## Demo
+To see a live demo of the project, please visit https://YossiKarasik.com
+
+## Installation
+To run the project locally, follow these steps:
+
+Clone the repository: 
+`git clonehttps://github.com/yosikari/portfolio.git`
+
+Install dependencies: 
+`npm install`
+
+Start the server: 
+`npm start`
+
+**The website should be available at** http://localhost:3000/.
+
+## Contact Me
+If you have any questions or feedback about the project, please feel free to reach out at yosikari@gmail.com.
