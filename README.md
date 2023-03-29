@@ -1,5 +1,4 @@
-#Yossi Karasik
-###Portfolio
+<h1>Yossi Karasik - Portfolio</h1>
 
 <img src='/src/assets/readme-gif.gif' /> 
 
@@ -13,8 +12,9 @@ Check it out here: https://YossiKarasik.com
 - Live 'Contact Me' to send me a message by Email. 
 
 
-##Technologies Used
-This project is built using the following technologies:
+<h2>Technologies Used</h2>
+<b>     This project is built using the following technologies:
+</b>
 
 - React framework created with 'npx create-react-app'
 - JavaScript
@@ -38,7 +38,7 @@ To see a live demo of the project, please visit https://YossiKarasik.com
 To run the project locally, follow these steps:
 
 Clone the repository: 
-`git clonehttps://github.com/yosikari/portfolio.git`
+`git clone https://github.com/yosikari/portfolio.git`
 
 Install dependencies: 
 `npm install`
