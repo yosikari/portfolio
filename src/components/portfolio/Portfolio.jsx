@@ -9,6 +9,10 @@ import IMG3 from '../../assets/portfolio3.gif'
 import IMG4 from '../../assets/portfolio4.gif'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpeg'
+import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio8.gif'
+
+
 
 const data = [
   {
@@ -27,10 +31,10 @@ const data = [
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'Meme Generator',
-    github: 'https://github.com/yosikari/MemeGenerator',
-    demo: 'https://yosikari.github.io/MemeGenerator/'
+    image: IMG7,
+    title: 'Social Media UI/UX',
+    github: 'https://github.com/yosikari/InstaCam',
+    demo: 'https://yosikari.github.io/InstaCam/'
   },
   {
     id: 4,
@@ -41,18 +45,31 @@ const data = [
   },
   {
     id: 5,
-    image: IMG5,
-    title: 'MineSweeper',
-    github: 'https://github.com/yosikari/minesweeper.github.io',
-    demo: 'https://yosikari.github.io/minesweeper.github.io/'
+    image: IMG8,
+    title: 'Nextflix',
+    github: 'https://github.com/yosikari/NextFlix',
+    demo: 'https://next-flix-ebon.vercel.app/login'
   },
   {
     id: 6,
-    image: IMG6,
-    title: 'View More...',
-    github: 'https://github.com/yosikari?tab=repositories',
-    // demo: 'https://github.com'
+    image: IMG3,
+    title: 'Meme Generator',
+    github: 'https://github.com/yosikari/MemeGenerator',
+    demo: 'https://yosikari.github.io/MemeGenerator/'
   },
+  // {
+  //   id: 7,
+  //   image: IMG6,
+  //   title: 'View More...',
+  //   github: 'https://github.com/yosikari?tab=repositories',
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'MineSweeper',
+  //   github: 'https://github.com/yosikari/minesweeper.github.io',
+  //   demo: 'https://yosikari.github.io/minesweeper.github.io/'
+  // },
 ]
 
 window.addEventListener("scroll", utilService.reveal);
