@@ -25,20 +25,30 @@
 }
 
 .experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     row-gap: 2rem;
 }
 
 .experience__details {
     display: flex;
     gap: 1rem;
+    width: 50%;
+    justify-content: center;
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
 }
+
+.experience__details-icon.bigger {
+    font-size: 1.5rem;
+    position: relative;
+    right: .2rem;
+}
+
 
 .reveal {
     position: relative;
@@ -108,5 +118,8 @@
     .experience__container>div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+    .experience__details {
+        justify-content: left;
     }
 }

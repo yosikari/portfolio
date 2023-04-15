@@ -27,7 +27,7 @@ const data = [
     image: IMG2,
     title: 'Notes & Mail',
     github: 'https://github.com/yosikari/Appsus',
-    demo: 'https://github.com/yosikari/Appsus'
+    demo: 'https://oritleshem.github.io/appsus/'
   },
   {
     id: 3,
