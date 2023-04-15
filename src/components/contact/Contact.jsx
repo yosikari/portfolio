@@ -8,6 +8,8 @@ import { BsWhatsapp } from 'react-icons/bs'
 
 import emailjs from 'emailjs-com'
 
+import WHATSAPP_BTN from '../../assets/whatsapp-icon.svg'
+
 function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const form = useRef()
@@ -27,6 +29,15 @@ function Contact() {
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
+
+      <a href="https://chatwith.io/s/yossikarasik" target="_blank">
+        <div className='whatsapp__container'>
+          <img src={WHATSAPP_BTN} />
+          <div className='whatsapp__chat'>
+            Hello 😀, lets talk on whatsapp..
+          </div>
+        </div>
+      </a>
 
       <div className="container contact__container">
         <div className="contact__options">
