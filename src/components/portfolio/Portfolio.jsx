@@ -11,6 +11,7 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpeg'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.gif'
+import IMG9 from '../../assets/portfolio9.jpg'
 
 
 
@@ -24,17 +25,17 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Notes & Mail',
-    github: 'https://github.com/yosikari/Appsus',
-    demo: 'https://oritleshem.github.io/appsus/'
+    image: IMG9,
+    title: 'Airbmb',
+    github: 'https://github.com/yosikari/Airbmb',
+    demo: 'https://airbmb-yosikari.vercel.app/'
   },
   {
     id: 3,
-    image: IMG7,
-    title: 'Social Media UI/UX',
-    github: 'https://github.com/yosikari/InstaCam',
-    demo: 'https://yosikari.github.io/InstaCam/'
+    image: IMG8,
+    title: 'Nextflix',
+    github: 'https://github.com/yosikari/NextFlix',
+    demo: 'https://next-flix-ebon.vercel.app/login'
   },
   {
     id: 4,
@@ -45,17 +46,17 @@ const data = [
   },
   {
     id: 5,
-    image: IMG8,
-    title: 'Nextflix',
-    github: 'https://github.com/yosikari/NextFlix',
-    demo: 'https://next-flix-ebon.vercel.app/login'
+    image: IMG7,
+    title: 'Social Media UI/UX',
+    github: 'https://github.com/yosikari/InstaCam',
+    demo: 'https://yosikari.github.io/InstaCam/'
   },
   {
     id: 6,
-    image: IMG3,
-    title: 'Meme Generator',
-    github: 'https://github.com/yosikari/MemeGenerator',
-    demo: 'https://yosikari.github.io/MemeGenerator/'
+    image: IMG2,
+    title: 'Notes & Mail',
+    github: 'https://github.com/yosikari/Appsus',
+    demo: 'https://oritleshem.github.io/appsus/'
   },
   // {
   //   id: 7,
